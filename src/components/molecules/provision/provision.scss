@@ -1,0 +1,16 @@
+.label, .item {
+  display: inline;
+  color: $color;
+}
+
+.ok, .success {
+  color: $ok_color;
+}
+
+.failed, .unreachable {
+  color: $failed_color;
+}
+
+.running {
+  color: $running_color;
+}

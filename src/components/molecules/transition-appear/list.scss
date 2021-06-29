@@ -1,0 +1,14 @@
+:global{
+  .list-appear,
+  .list-enter,
+  .list-leave {
+    opacity: 0;
+  }
+
+  .list-leave,
+  .list-appear.list-appear-active,
+  .list-enter.list-enter-active {
+    opacity: 1;
+    transition: opacity 0.3s ease-in;
+  }
+}

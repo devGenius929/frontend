@@ -1,0 +1,29 @@
+a {
+  text-decoration: none;
+}
+
+.provision {
+  .OK, .SUCCESS {
+    font-weight: bold;
+
+    a {
+      color: $ok_color;
+    }
+  }
+
+  .RUNNING {
+    font-weight: bold;
+
+    a {
+      color: $running_color;
+    }
+  }
+
+  .FAILED {
+    font-weight: bold;
+
+    a {
+      color: $failed_color;
+    }
+  }
+}
